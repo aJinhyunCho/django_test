@@ -5,6 +5,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
+    newbranch2
     url(r'^$', 'django_test.views.home', name='home1'),
     url(r'^blog/', include('blog.urls')),
 
